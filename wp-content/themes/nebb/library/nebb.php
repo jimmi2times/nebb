@@ -1,6 +1,6 @@
 <?php
 /*
-* parkdrei specific functions
+* nebb specific functions
 * loaded in functions.php
 *
 * V1.0 09.08.16
@@ -15,11 +15,12 @@ $args['largest'] = 11;
 return $args; }
 
 
+// No Comments at all :)
 
-
-if ( ! function_exists( 'parkdrei_comment' ) ) {
-	function parkdrei_comment( $comment, $args, $depth ) {
+if ( ! function_exists( 'nebb_comment' ) ) {
+	function nebb_comment( $comment, $args, $depth ) {
 		$GLOBALS['comment'] = $comment;
+/*
 		switch ( $comment->comment_type ) :
 			case '' :
 		?>
@@ -65,6 +66,7 @@ if ( ! function_exists( 'parkdrei_comment' ) ) {
 		<?php
 				break;
 		endswitch;
+*/
 	}
 }
 

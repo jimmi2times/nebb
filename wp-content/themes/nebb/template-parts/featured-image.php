@@ -14,5 +14,6 @@
 	if ($image){
 	?>
 	<header id="featured-hero" role="banner" style="background-image: url('<?php echo $image ?>')">
+		<a href="/nebb"><img class="logo" src="http://localhost/nebb//wp-content/themes/nebb/assets/images/logo1.png"></a>
 	</header>
 <?php } ?>

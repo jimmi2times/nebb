@@ -48,7 +48,7 @@ require_once( 'library/sticky-posts.php' );
 require_once( 'library/responsive-images.php' );
 
 /**  Load parkdrei specific function */
-require_once( 'library/parkdrei.php' );
+require_once( 'library/nebb.php' );
 
 
 /** If your site requires protocol relative url's for theme assets, uncomment the line below */
