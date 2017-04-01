@@ -1,0 +1,117 @@
+// fonts
+@import url('https://fonts.googleapis.com/css?family=Muli');
+
+
+// global
+
+$nebb-primary: #222;
+$nebb-secondary: #53ff5f;
+
+
+// For the fixed Top menu
+@include breakpoint(medium) {
+  section.container {
+    padding-top: 55px;
+  }
+
+  .site-header {
+    position: fixed;
+    width: 100%;
+    margin-bottom: 55px;
+    z-index: 99999;
+    height: 55px;
+  }
+}
+
+
+// Main column
+article.main-content {
+  @include breakpoint(medium) {
+    font-size: 1.1em;
+    color: $nebb-primary;
+    font-weight: 300;
+  }
+
+
+  h1, h2, h3 {
+    font-weight: bold;
+    a:hover {
+      background: $nebb-secondary;
+      text-decoration: none;
+    }
+
+  }
+
+  // Der eigentliche Text
+  .entry-content {
+    a {
+      text-decoration: none;
+      background-image: linear-gradient(to top, #fff 0, #fff 49%, #000 50%, #000 100%);
+      background-size: 2px 2px;
+      background-repeat: repeat-x;
+      background-position: 0 105%;
+      padding: 1px 0
+    }
+    a:hover {
+      background: $nebb-secondary;
+    }
+    img {
+      margin-bottom: 6px;
+    }
+
+  }
+  footer {
+    font-size: 0.8em;
+    a:hover {
+      background: $nebb-secondary;
+      color: $black;
+    }
+  }
+
+  .post-navigation {
+    margin-bottom: 12px;
+    .nav-previous:before {
+      content: '«';
+      margin-right: 6px;
+    }
+    .nav-next:after {
+      content: '»';
+      margin-left: 6px;
+    }
+    a {
+      text-decoration: underline;
+    }
+    a:hover {
+      background: $nebb-secondary;
+      color: $black;
+    }
+  }
+
+}
+
+// sidebar
+aside {
+  h6 {
+    color: $nebb-primary;
+  }
+  label {
+    color: #ccc;
+  }
+  .widget {
+    color: #ccc;
+    font-size: 0.8em;
+    a {
+      color: #ccc;
+    }
+
+    a:hover {
+      background: $nebb-secondary;
+      color: $black;
+    }
+
+  }
+
+}
+
+
+// Footer
