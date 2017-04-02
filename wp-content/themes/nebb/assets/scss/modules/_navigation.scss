@@ -20,7 +20,7 @@
 .title-bar-title {
   a {
     font-size: 1rem;
-    color: #B9B9B9;
+    color: $white;
   }
 }
 
@@ -57,7 +57,7 @@
   .menu li:not(:last-child) { border-right: 1px solid #fff; }
 
   .dropdown.menu .submenu {
-    background-color: #121212;
+    background-color: $secondary-color;
     color: #e6e6e6;
     border: 0;
   }

@@ -49,8 +49,8 @@ $global-font-size: 100%;
 $global-width: rem-calc(980); //
 $global-lineheight: 1.5;
 $foundation-palette: (
-  primary: #000, //006f08
-  secondary: #1d1d83,
+  primary: #1d1d83, //006f08
+  secondary: #49c1dc,
   success: #3adb76,
   warning: #ffae00,
   alert: #ec5840,
@@ -125,7 +125,7 @@ $header-sizes: (
     'h6': 16,
   ),
 );
-$header-color: $secondary-color;
+$header-color: $primary-color;
 $header-lineheight: 1.4;
 $header-margin-bottom: 0.5rem;
 $header-text-rendering: optimizeLegibility;
@@ -536,7 +536,7 @@ $thumbnail-radius: $global-radius;
 // 34. Title Bar
 // -------------
 
-$titlebar-background: $black;
+$titlebar-background: $secondary-color;
 $titlebar-color: $white;
 $titlebar-padding: 0.5rem;
 $titlebar-text-font-weight: bold;
