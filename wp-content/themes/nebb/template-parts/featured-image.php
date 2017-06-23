@@ -13,7 +13,7 @@
 
 	if ($image){
 	?>
-	<header id="featured-hero" role="banner" style="background-image: url('<?php echo $image ?>')">
-		<a href="/nebb"><img class="logo" src="http://localhost/nebb//wp-content/themes/nebb/assets/images/logo1.png"></a>
+	<header id="featured-hero" role="banner" style="background-image: url('<?php echo $image ?>'); background-position: top;">
+		<a href="/nebb"><img class="logo" src="/wp-content/themes/nebb/assets/images/Logo1.png"></a>
 	</header>
 <?php } ?>

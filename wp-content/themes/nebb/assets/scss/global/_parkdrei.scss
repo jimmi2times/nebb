@@ -1,5 +1,5 @@
 // fonts
-@import url('https://fonts.googleapis.com/css?family=Muli:300,300i,400,400i,700');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans:400,400i,700,700i');
 
 
 // global
@@ -35,6 +35,7 @@ article.main-content .entry-content .nebbBox a {
 
 @include breakpoint(large) {
   #featured-hero {
+      background-position: top;
     .logo {
       position: absolute;
       left: 10px;
@@ -160,6 +161,68 @@ aside {
   }
 
 }
+
+
+// Page Templates
+.kinder {
+    .nebbBox {
+      background: #d87d5f;
+      color: $white;
+      box-shadow: 0 0 5px #ddd;
+
+    }
+    h1, h2, h3 {
+        color: #d87d5f;
+    }
+    h4 {
+        color: $white;
+    }
+}
+.erwachsene {
+    .nebbBox {
+      background: #00a9e9;
+      color: $white;
+      box-shadow: 0 0 5px #ddd;
+
+    }
+    h1, h2, h3 {
+        color: #00a9e9;
+    }
+    h4 {
+        color: $white;
+    }
+}
+.aeltere {
+    .nebbBox {
+      background: #8bbd57;
+      color: $white;
+      box-shadow: 0 0 5px #ddd;
+
+    }
+    h1, h2, h3 {
+        color: #8bbd57;
+    }
+    h4 {
+        color: $white;
+    }
+}
+.kranke {
+    h1, h2, h3 {
+        color: #8f87bd;
+    }
+    h4 {
+        color: $white;
+    }
+    .nebbBox {
+      background: #8f87bd;
+      color: $white;
+      box-shadow: 0 0 5px #ddd;
+    }
+
+}
+
+
+
 
 
 // Footer
